@@ -1,0 +1,40 @@
+nav li {
+  float: left;
+  display: inline-block;
+  
+  background-color: pink;
+}
+nav ul {
+  padding-left: 0;
+}
+nav li a {
+  display: inline-block;
+  padding: 2em 4em;
+}
+nav li:last-child {
+  float: right;
+}
+
+nav.sidenav  {
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  width: 60%;
+  height: 100%;
+  transition: 0.5s;
+}
+nav.sidenav li {
+  float: none;
+  display: block;
+  width: 100%;
+  background-color: yellow;
+}
+nav.sidenav li a {
+  width: 100%;
+  text-align: center;
+  padding-left: initial;
+  padding-right: initial;
+}
+h1 {
+  clear: left;
+}
